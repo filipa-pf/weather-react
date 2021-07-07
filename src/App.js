@@ -1,17 +1,16 @@
-
-import './App.css';
+import React from "react";
 import CityForm from "./CityForm";
 
-export default function App() {
+export default function Body() {
   return (
-    <div className="Body">
-      <div className="container">
-        <div className="card">
-          <div className="card-body card-img">
-            <CityForm />
-          </div>
+
+    <div className="container">
+      <div className="card">
+        <div className="card-body card-img">
+          <CityForm />
         </div>
       </div>
     </div>
+
   );
 }

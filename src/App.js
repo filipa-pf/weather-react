@@ -1,16 +1,17 @@
 
 import './App.css';
-import Weather from "./Weather"
+import CityForm from "./CityForm";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello World!</h1>
-        <Weather />
-      </header>
+    <div className="Body">
+      <div className="container">
+        <div className="card">
+          <div className="card-body card-img">
+            <CityForm />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;

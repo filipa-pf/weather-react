@@ -1,0 +1,33 @@
+#input-city {
+  max-width: 300px;
+}
+
+.input-max {
+  width: 50%;
+  margin: 0 auto;
+  background: transparent;
+}
+
+.detailed-btn {
+  margin: 10px;
+  background: d9f0f7;
+  border-color: antiquewhite;
+  font-size: 10px;
+}
+.CityForm {
+  text-align: center;
+}
+.card {
+  margin-top: 20px;
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+}
+#input-city {
+  background-color: white;
+  margin-top: 10px;
+}
